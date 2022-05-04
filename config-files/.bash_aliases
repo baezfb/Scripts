@@ -11,6 +11,7 @@ alias ..='cd ..;pwd'
 alias ...='cd ../..;pwd'
 alias ....='cd ../../..;pwd'
 alias myip="ip -f inet address | grep inet | grep -v 'lo$' | cut -d ' ' -f 6,13 && curl ifconfig.me && echo ' external ip'"
+alias conset="sudo dpkg-reconfigure console-setup"
 
 # Calendar (ncal package required)
 alias jan='cal -m 01'
