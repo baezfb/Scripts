@@ -1,6 +1,7 @@
 # System
 alias ll='ls -l'
 alias la='ls -a'
+alias lla='ls -la'
 alias l='ls -CF'
 alias mkdir='mkdir -p -v'
 alias tree="tree --dirsfirst -F" # tree package required
